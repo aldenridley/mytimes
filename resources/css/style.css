@@ -33,14 +33,66 @@ nav span {
   justify-content: flex-end;
 }
 
+.main {
+  display: flex;
+}
+
 .column.large {
+  display: flex;
   width: 630px;
+  border: 2px solid black;
 }
 
 .column.medium {
+  display: flex;
   width: 300px;
+  border: 2px solid black;
 }
 
 .column.small {
+  display: flex;
   width: 240px;
+  border: 2px solid black;
+}
+
+.monval {
+  display: flex;
+  width: 630px;
+  border: 2px solid black
+}
+
+.tuna {
+  display: flex;
+  width: 630px;
+  border: 2px solid black
+}
+
+.orca {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  border: 2px solid black
+
+}
+
+.earth {
+  display: flex;
+  width: 630px;
+  border: 2px solid black
+
+}
+
+.burger {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  border: 2px solid black
+
+}
+
+.camera {
+  display: flex;
+  width: 630px;
+  border: 2px solid black
+
 }
