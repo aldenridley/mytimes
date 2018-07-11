@@ -41,6 +41,7 @@ nav span {
   display: flex;
   width: 630px;
   border: 2px solid black;
+  margin-right: 40px;
 }
 
 .column.medium {
@@ -58,27 +59,28 @@ nav span {
 .monval {
   display: flex;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
+
 }
 
 .tuna {
   display: flex;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
 .orca {
   display: flex;
   flex-wrap: wrap;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
 
 }
 
 .earth {
   display: flex;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
 
 }
 
@@ -86,13 +88,32 @@ nav span {
   display: flex;
   flex-wrap: wrap;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
 
 }
 
 .camera {
   display: flex;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
 
+}
+
+.fbi {
+  display: flex;
+  width: 300px;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+
+.cat {
+  display: flex;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.brooklyn {
+  display: flex;
+  width: 300px;
+  border: 2px solid black;
 }
