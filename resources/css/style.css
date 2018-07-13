@@ -8,6 +8,7 @@
   font-weight: bold;
   border: 2px solid black;
   padding: 5px;
+  align-items: center;
   }
 
 .logo {
@@ -16,7 +17,6 @@
   padding-left: 30px;
   align-items: center;
   padding-right: 900px;
-  border: 2px solid black
 }
 
 .logo img {
@@ -31,6 +31,8 @@ nav {
 
 nav span {
   justify-content: flex-end;
+  margin-right: 10px;
+  font-size: 14px;
 }
 
 
@@ -40,28 +42,23 @@ nav span {
 .main {
   display: flex;
   padding: 40px;
-  border: 4px solid grey;
 }
 
 .column.large {
   display: flex;
   width: 630px;
-  border: 2px solid black;
-  padding: 40px;
+  flex-direction: row;
 }
 
 .column.medium {
   display: flex;
   width: 300px;
-  border: 2px solid black;
-  padding: 40px;
 }
 
 .column.small {
   display: flex;
   width: 240px;
-  border: 2px solid black;
-  padding: 40px;
+  flex-direction: column;
 }
 
 
@@ -71,44 +68,80 @@ nav span {
 .monval {
   display: flex;
   width: 630px;
-  border: 2px solid black;
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-right: 40px;
 }
 
 .tuna {
   display: flex;
   width: 630px;
-  border: 2px solid black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-right: 40px;
+  padding-bottom: 75px;
+  flex-flow: row wrap;
 }
 
 .orca {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   width: 630px;
-  border: 2px solid black;
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-right: 40px;
+  flex-flow: row wrap;
+  width: 291px;
+  padding-bottom: 20px;
 }
 
 .earth {
-  display: flex;
+  display: inline-flex;
   width: 630px;
-  border: 2px solid black;
-
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 135px;
+  margin-right: 40px;
+  flex-flow: row wrap;
+  width: 291px;
 }
 
 .burger {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   width: 630px;
-  border: 2px solid black;
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-right: 40px;
+  flex-flow: row wrap;
+  width: 291px;
+  padding-bottom: 20px;
 }
 
 .camera {
-  display: flex;
+  display: inline-flex;
   width: 630px;
-  border: 2px solid black;
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-right: 40px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  flex-flow: row wrap;
+  width: 291px;
+  padding-bottom: 135px;
 }
 
 
@@ -118,20 +151,32 @@ nav span {
 .fbi {
   display: flex;
   width: 300px;
-  border: 2px solid black;
   flex-wrap: wrap;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-right: 40px;
 }
 
 .cat {
   display: flex;
   width: 300px;
-  border: 2px solid black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 150px;
+  margin-right: 40px;
 }
 
 .brooklyn {
   display: flex;
   width: 300px;
-  border: 2px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-right: 40px;
 }
 
 
@@ -141,6 +186,62 @@ nav span {
 .news {
   display: flex;
   width: 240px;
-  border: 2px solid black;
   flex-wrap: wrap;
+  font-family: Georgia;
+  font-size: 17px;
+  justify-content: center;
+}
+
+.news h2 {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news ul {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.news ul span {
+  display: flex;
+  display: block;
+  border-bottom: 1px solid black;
+  margin: 10px 15px;
+}
+
+
+/* footer */
+
+
+.footer{
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer ul span {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+.footer h3 {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
+  display: block;
 }
